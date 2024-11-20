@@ -121,7 +121,7 @@ useEffect(() => {
       {/* Animated Programming Languages Line */}
       <div className="ProgLine">
         <div className="header">
-          <h2>Skills & Tools</h2>
+          <h2>Tech Stack</h2>
         </div>
 
         <div className="scroll-container">

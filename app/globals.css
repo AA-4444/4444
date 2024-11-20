@@ -333,7 +333,7 @@ i.fab, i.fas {
 }
 .header h2 {
   color: #FAFAFA;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .scroll-container {
@@ -692,7 +692,7 @@ color: lightgray;
   color: white;
   text-align: center;
   bottom: 0;
-  padding: 20px 0;
+  padding: 4% 0;
   min-height: 5vh;
   width: 100%;
   
