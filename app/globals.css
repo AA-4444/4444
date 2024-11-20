@@ -44,12 +44,12 @@ i.fab, i.fas {
 }
 
 .name {
-  font-size: 6rem;
+  font-size: 7rem;
   margin-bottom: 10px;
 }
 
 .title {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   color: lightgray;
   margin-bottom: 30px;
 }
@@ -88,8 +88,8 @@ i.fab, i.fas {
   bottom: 10%;
   left: 20%;
   font-size: 3.5rem;
-  width: 260px;
-  height: 260px;
+  width: 300px; /*260px  */
+  height: 300px;
   animation-delay: 0.5s; /* Starts immediately */
 }
 
@@ -104,8 +104,8 @@ i.fab, i.fas {
 .github {
   top: 6%;
   right: 2%;
-  width: 460px;
-  height: 460px;
+  width: 510px; /*460px */
+  height: 510px;
   font-size: 4rem;
   animation-delay: 0s; /* Starts immediately */
 }
@@ -121,8 +121,8 @@ i.fab, i.fas {
 .twitter {
   bottom: 6%;
   right: 3%;
-  width: 200px;
-  height: 200px;
+  width: 250px; /* 200px */
+  height: 250px;
   font-size: 2rem;
   animation-delay: 1.5s; /* Starts immediately */
 }
@@ -138,8 +138,8 @@ i.fab, i.fas {
 .mail {
   top: 5%;
   left: 5%;
-  width: 330px;
-  height: 330px;
+  width: 380px; /* 330px */
+  height: 380px;
   font-size: 3rem;
   animation-delay: 1s; /* Starts immediately */
 }

@@ -74,7 +74,7 @@ export default function Speedometr() {
 
         .content h1 {
             color: white;
-            font-size: 2.5rem;
+            font-size: 3rem;
             text-align: center;
         }
 
