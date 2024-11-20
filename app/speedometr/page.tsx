@@ -11,12 +11,21 @@ export default function Speedometr() {
         <div className="content">
             <h1>Speedometer</h1>
             <div className="project-video">
-                <video id="projectVideo" autoPlay loop muted playsInline>
+               { /*<video id="projectVideo" autoPlay loop muted playsInline>
                     <source src="/speedometr1.mp4" type="video/mp4" />
                     Your browser does not support the video tag.
-                </video>
+                </video> */}
+                <video id="projectVideo" autoPlay loop muted playsInline>
+  <source src={`${process.env.NODE_ENV === 'production' ? '/4444' : ''}/speedometr1.mp4`} type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
+
                 <button id="toggleButton">Pause</button>
-                <a href="/" className="back">Back to Home</a>
+               {/* <a href="/" className="back">Back to Home</a> */}
+               <a href={`${process.env.NODE_ENV === 'production' ? '/4444' : ''}/`} className="back">
+  Back to Home
+</a>
+
             </div>
         </div>
 
