@@ -154,7 +154,7 @@ useEffect(() => {
 
       {/* Career Timeline Section */}
       <div className="header">
-        <h1>Career Timeline</h1>
+        <h2>Career Timeline</h2>
       </div>
       <ul className="timeline">
         <li>

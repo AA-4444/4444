@@ -333,7 +333,7 @@ i.fab, i.fas {
 }
 .header h2 {
   color: #FAFAFA;
-  font-size: 3rem;
+  font-size: 4rem;
 }
 
 .scroll-container {
@@ -676,7 +676,7 @@ i.fab, i.fas {
   margin-top: -60%;
 }
 .header-2 {
-  font-size: 2rem;
+  font-size: 3rem;
   color: white;
 }
 .header-2 p {
@@ -1059,7 +1059,26 @@ color: lightgray;
   text-align: center;
   margin-top: -180%;
 }
+.foot {
+  background-color: #111111;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  padding: 4% 0;
+  min-height: 10vh;
+  width: 100%;
+  
+}
 
+.footer p {
+  margin: 0;
+}
+.header-2 h1 {
+  font-size: 1.7rem;
+}
+.header h2 {
+  font-size: 1.7rem;
+}
 
 }
 
