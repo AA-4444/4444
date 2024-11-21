@@ -136,6 +136,8 @@ useEffect(() => {
             <i className="fas fa-database"></i>
             <i className="fas fa-fire"></i>
             <i className="fab fa-figma"></i>
+            <i className="fab fa-github"></i>
+
           </div>
           <div className="carousel-primary carousel-secondary">
             <i className="fab fa-swift"></i>
@@ -148,6 +150,7 @@ useEffect(() => {
             <i className="fas fa-database"></i>
             <i className="fas fa-fire"></i>
             <i className="fab fa-figma"></i>
+            <i className="fab fa-github"></i>
           </div>
         </div>
       </div>
