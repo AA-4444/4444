@@ -187,7 +187,7 @@ useEffect(() => {
               <span className="flag">AVA100</span>
               <span className="time-wrapper"><span className="time">2024 - 2024</span></span>
             </div>
-            <div className="desc">Developed a website for the Ukranian building company AVA100</div>
+            <div className="desc">Developed a website for the Ukranian building company <a href="http://ava100.com.ua" className="underline-link">AVA100</a></div>
           </div>
         </li>
 
