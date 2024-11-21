@@ -351,7 +351,7 @@ i.fab, i.fas {
 }
 
 .carousel-primary i {
- font-size: 2.5rem;
+ font-size: 2.8rem;
  color: white;
  transition: color 0.3s ease;
 }
@@ -1078,24 +1078,35 @@ color: lightgray;
 }
 
 .header-2 {
-  margin-bottom: -10%;
+  margin-bottom: -32%;
 }
 .header-2 h1 {
   font-size: 2.2rem;
 }
 .header-2 p {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: justify;
 }
 .header h2 {
   font-size: 2rem;
 }
 
+
 .carousel-primary i,
 .carousel-secondary i {
   font-size: 2.8rem; 
   margin: 0 10px; 
+  
 }
+
+.carousel-secondary,
+.carousel-primary {
+  display: flex;
+  gap: 0px; 
+  flex-shrink: 0; 
+  white-space: nowrap; /* Prevent wrapping */
+}
+
 
 
 
