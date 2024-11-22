@@ -121,7 +121,7 @@ export default function Speedometr() {
 
         @media (max-width: 768px) {
             .content h1 {
-                font-size: 2rem !important;
+                 font-size: 2.5rem !important;
             }
             .project-video video {
                 max-height: 40vh;
@@ -133,7 +133,7 @@ export default function Speedometr() {
 
           @media (max-width: 480px) {
             .content h1 {
-                font-size: 2rem !important;
+                 font-size: 2.5rem !important;
             }
             .project-video video {
                 max-height: 50vh;
