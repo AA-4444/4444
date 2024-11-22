@@ -69,7 +69,7 @@ export default function Speedometr() {
 
         .content h1 {
             color: white;
-            font-size: 3rem;
+            font-size: 3.5rem;
             text-align: center;
         }
 
@@ -99,7 +99,7 @@ export default function Speedometr() {
         .project-video button {
             margin-top: 20px;
             padding: 10px 20px;
-            font-size: 16px;
+            font-size: 1.2rem;
             color: black;
             background-color: white;
             border: none;
@@ -121,16 +121,19 @@ export default function Speedometr() {
 
         @media (max-width: 768px) {
             .content h1 {
-                font-size: 1.6rem !important;
+                font-size: 2rem !important;
             }
             .project-video video {
                 max-height: 40vh;
             }
+                  .project-video button {
+                 font-size: 1.2rem;
+        }
         }
 
-        @media (max-width: 480px) {
+          @media (max-width: 480px) {
             .content h1 {
-                font-size: 1.8rem !important;
+                font-size: 2rem !important;
             }
             .project-video video {
                 max-height: 50vh;
@@ -138,6 +141,9 @@ export default function Speedometr() {
                 .back {
                 margin-top: 5%;
                 }
+                 .project-video button {
+                 font-size: 1.2rem;
+        }
         }
         `}</style>
     </div>
