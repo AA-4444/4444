@@ -1,8 +1,8 @@
 // app/page.tsx
-'use client'; // This tells Next.js that this component should be rendered on the client side
+'use client'; 
 
 import React, { useState, useEffect } from "react";
-import "./globals.css"; // Use relative path
+import "./globals.css"; 
 import Link from "next/link";
 import Head from "next/head";
 
@@ -12,7 +12,7 @@ export default function Home() {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // Simulate loading screen for 3 seconds (you can change the duration as needed)
+    // Simulate loading screen 
     setTimeout(() => {
       setIsLoading(false);
     }, 3000); // 3000ms = 3 seconds
@@ -26,6 +26,7 @@ useEffect(() => {
   return (
     <>
     <Head>
+    <title>Dev card</title>
     <link rel="icon" href='/favicon.ico' />
 </Head>
     <div className="App">

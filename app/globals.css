@@ -1,4 +1,4 @@
-/* General body and layout styles */
+
 body {
   margin: 0;
   padding: 0;
@@ -15,12 +15,12 @@ i.fab, i.fas {
 }
 
 
-/* Remove overflow:hidden to allow scrolling */
+
 .App {
   color: white;
   position: relative;
   width: 100%;
-  min-height: 130vh; /* Allow for scrolling if content exceeds viewport */
+  min-height: 130vh; 
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -31,7 +31,7 @@ i.fab, i.fas {
   color: white;
   position: relative;
   width: 100%;
-  min-height: 100vh; /* Allow for scrolling if content exceeds viewport */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -40,7 +40,7 @@ i.fab, i.fas {
 
 .content {
   text-align: center;
-  z-index: 1; /* Ensure text stays above icons */
+  z-index: 1; 
 }
 
 .name {
@@ -54,7 +54,7 @@ i.fab, i.fas {
   margin-bottom: 30px;
 }
 
-/* Bounce animation for all icons */
+
 @keyframes bounce {
   0%, 100% {
     transform: translateY(0);
@@ -67,7 +67,7 @@ i.fab, i.fas {
   }
 }
 
-/* Base styles for all icons */
+
 .social-icon {
   display: flex;
   align-items: center;
@@ -77,28 +77,28 @@ i.fab, i.fas {
   color: white;
   position: absolute;
   text-decoration: none;
-  animation: bounce 3s infinite ease-in-out; /* Add the bounce animation by default */
-  transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; /* Apply transition to transform only */
-  transform-origin: center; /* Ensure the circle shrinks from the center */
+  animation: bounce 3s infinite ease-in-out; 
+  transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; 
+  transform-origin: center; 
   z-index: -1;
 }
 
-/* Hover effect for each icon */
+
 .linkedin {
   bottom: 10%;
   left: 20%;
   font-size: 3.5rem;
   width: 300px; /*260px  */
   height: 300px;
-  animation-delay: 0.5s; /* Starts immediately */
+  animation-delay: 0.5s; 
 }
 
 .linkedin:hover {
-  animation: none; /* Stop the bounce animation on hover */
+  animation: none; 
   background-color: rgba(255, 255, 255, 0.1);
   border-color: #00bfff;
   color: #00bfff;
-  transform: scale(0.35); /* Shrink the circle with scale from the center */
+  transform: scale(0.35); 
 }
 
 .github {
@@ -107,15 +107,15 @@ i.fab, i.fas {
   width: 510px; /*460px */
   height: 510px;
   font-size: 4rem;
-  animation-delay: 0s; /* Starts immediately */
+  animation-delay: 0s; 
 }
 
 .github:hover {
-  animation: none; /* Stop the bounce animation on hover */
+  animation: none; 
   background-color: rgba(255, 255, 255, 0.1);
   border-color: #EFB8C7;
   color: #EFB8C7;
-  transform: scale(0.25); /* Shrink the circle with scale from the center */
+  transform: scale(0.25); 
 }
 
 .twitter {
@@ -124,15 +124,15 @@ i.fab, i.fas {
   width: 250px; /* 200px */
   height: 250px;
   font-size: 2rem;
-  animation-delay: 1.5s; /* Starts immediately */
+  animation-delay: 1.5s; 
 }
 
 .twitter:hover {
-  animation: none; /* Stop the bounce animation on hover */
+  animation: none; 
   background-color: rgba(255, 255, 255, 0.1);
   border-color: #1da1f2;
   color: #1da1f2;
-  transform: scale(0.5); /* Shrink the circle with scale from the center */
+  transform: scale(0.5);
 }
 
 .mail {
@@ -141,15 +141,15 @@ i.fab, i.fas {
   width: 380px; /* 330px */
   height: 380px;
   font-size: 3rem;
-  animation-delay: 1s; /* Starts immediately */
+  animation-delay: 1s; 
 }
 
 .mail:hover {
-  animation: none; /* Stop the bounce animation on hover */
+  animation: none; 
   background-color: rgba(255, 255, 255, 0.1);
   border-color: #053dcc;
   color: #053dcc;;
-  transform: scale(0.33); /* Shrink the circle with scale from the center */
+  transform: scale(0.33); 
 }
 
 .mouse_scroll {
@@ -417,7 +417,7 @@ i.fab, i.fas {
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 9999; /* Ensure it stays on top */
+  z-index: 9999; /* stays on top */
 }
 
 /* Loader animation */
@@ -833,7 +833,7 @@ color: lightgray;
 
 .timeline {
  	width: 100%;
-	padding: 4em 0 65em 0;
+	padding: 4em 0 68em 0;
 }
 
 .timeline li {
@@ -1362,7 +1362,6 @@ color: lightgray;
     }
   }
   
-  /* Base styles for all icons */
   .social-icon {
     display: flex;
     align-items: center;
@@ -1372,28 +1371,27 @@ color: lightgray;
     color: white;
     position: absolute;
     text-decoration: none;
-    animation: bounce 3s infinite ease-in-out; /* Add the bounce animation by default */
-    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; /* Apply transition to transform only */
-    transform-origin: center; /* Ensure the circle shrinks from the center */
+    animation: bounce 3s infinite ease-in-out; 
+    transition: transform 0.3s ease, background-color 0.3s ease, border-color 0.3s ease; 
+    transform-origin: center; 
     z-index: -1;
   }
   
-  /* Hover effect for each icon */
   .linkedin {
     bottom: 10%;
     left: 8%;
     font-size: 3rem;
     width: 12rem; /* 260px */
     height: 12rem;
-    animation-delay: 0.5s; /* Starts immediately */
+    animation-delay: 0.5s; 
   }
   
   .linkedin:hover {
-    animation: none; /* Stop the bounce animation on hover */
+    animation: none; 
     background-color: rgba(255, 255, 255, 0.1);
     border-color: #00bfff;
     color: #00bfff;
-    transform: scale(0.35); /* Shrink the circle with scale from the center */
+    transform: scale(0.35); 
   }
   
   .github {
@@ -1402,15 +1400,15 @@ color: lightgray;
     width: 20rem; /* 460px */
     height: 20rem;
     font-size: 3.7rem;
-    animation-delay: 0s; /* Starts immediately */
+    animation-delay: 0s; 
   }
   
   .github:hover {
-    animation: none; /* Stop the bounce animation on hover */
+    animation: none; 
     background-color: rgba(255, 255, 255, 0.1);
     border-color: #EFB8C7;
     color: #EFB8C7;
-    transform: scale(0.25); /* Shrink the circle with scale from the center */
+    transform: scale(0.25); 
   }
   
   .twitter {
@@ -1419,15 +1417,15 @@ color: lightgray;
     width: 10rem; /* 200px */
     height: 10rem;
     font-size: 2rem;
-    animation-delay: 1.5s; /* Starts immediately */
+    animation-delay: 1.5s; 
   }
   
   .twitter:hover {
-    animation: none; /* Stop the bounce animation on hover */
+    animation: none;
     background-color: rgba(255, 255, 255, 0.1);
     border-color: #1da1f2;
     color: #1da1f2;
-    transform: scale(0.5); /* Shrink the circle with scale from the center */
+    transform: scale(0.5); 
   }
   
   .mail {
@@ -1436,15 +1434,15 @@ color: lightgray;
     width: 17rem; /* 330px */
     height: 17rem;
     font-size: 2.8rem;
-    animation-delay: 1s; /* Starts immediately */
+    animation-delay: 1s; 
   }
   
   .mail:hover {
-    animation: none; /* Stop the bounce animation on hover */
+    animation: none; 
     background-color: rgba(255, 255, 255, 0.1);
     border-color: #053dcc;
     color: #053dcc;;
-    transform: scale(0.33); /* Shrink the circle with scale from the center */
+    transform: scale(0.33); 
   }
   .aboutme {
     height: 65vh;
@@ -1458,18 +1456,18 @@ color: lightgray;
     background-color: #111111;
     color: white;
     text-align: center;
-    display: flex;           /* Enable Flexbox */
-    flex-direction: column;  /* Stack items vertically */
-    justify-content: flex-end; /* Push content to the bottom */
-    align-items: center;     /* Center horizontally */
-    padding: 0;              /* Adjust padding if necessary */
-    min-height: 10vh;        /* Minimum height of footer */
+    display: flex;           
+    flex-direction: column;  
+    justify-content: flex-end; 
+    align-items: center;    
+    padding: 0;              
+    min-height: 10vh;       
     width: 100%;
   }
   
   .foot p {
     margin: 0;
-    padding: 10px 0; /* Add spacing if needed */
+    padding: 10px 0; 
   }
   
   .header-2 {
@@ -1495,7 +1493,6 @@ color: lightgray;
   
   .carousel-secondary,
   .carousel-primary {
-   
     gap: 0px; 
    
   }
