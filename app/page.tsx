@@ -12,7 +12,7 @@ export default function Home() {
   const [isClient, setIsClient] = useState(false);
 
   useEffect(() => {
-    // Simulate loading screen 
+    //  loading screen 
     setTimeout(() => {
       setIsLoading(false);
     }, 3000); // 3000ms = 3 seconds
@@ -234,7 +234,7 @@ useEffect(() => {
           </div>
         </li>
 
-        {/* More items here */}
+        {/*  */}
         <li>
           <div className="direction-l">
             <div className="flag-wrapper">
