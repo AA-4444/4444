@@ -4,7 +4,7 @@
 import React, { useState, useEffect } from "react";
 import "./globals.css"; // Use relative path
 import Link from "next/link";
-
+import Head from "next/head";
 
 
 export default function Home() {
@@ -24,6 +24,10 @@ useEffect(() => {
 
 
   return (
+    <>
+    <Head>
+    <link rel="icon" href="/favicon.ico" />
+</Head>
     <div className="App">
       {/* Loader Screen */}
       {isLoading && (
@@ -286,5 +290,6 @@ useEffect(() => {
         </section>
       
     </div>
+    </>
   );
 }
