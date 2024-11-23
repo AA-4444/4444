@@ -13,6 +13,9 @@ body {
 i.fab, i.fas {
   font-family: 'Font Awesome 5 Free', 'FontAwesome', sans-serif !important;
 }
+.no-scroll {
+  overflow: hidden;
+}
 
 
 
